@@ -212,6 +212,7 @@ button {
     cursor: pointer;
     width: 100%;
     margin: auto;
+    margin-block: .625rem;
 
 }
 
@@ -242,12 +243,6 @@ button:hover {
 }
 
 @media (min-width: 1023.98px) {
-
-
-    main {
-        padding: unset;
-        text-align: center;
-    }
 
 
     button {
