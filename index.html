@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Coffee Masters Order</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header-bg">
+      <div class="header-content">
+        <h1 class="header-title">
+          <img
+            src="./imgs/coffee_masters_logo.png"
+            class="logo-img"
+            alt="logo of the page which containts a cup of coffee"
+          />
+          Coffee Masters
+        </h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="main-content-grid">
+        <div class="card">
+          <h2 class="card-title">ITEMS</h2>
+          <div class="item-list-container">
+            <div class="item-row">
+              <div class="item-details">
+                <p class="item-name">1x Cappuccino</p>
+                <p class="item-options">Lite foam</p>
+              </div>
+              <span class="item-price">$3.35</span>
+            </div>
+
+            <div class="item-row">
+              <div class="item-details">
+                <p class="item-name">1x Cappuccino</p>
+                <p class="item-options">Lite milk</p>
+                <p class="item-options">Double espresso</p>
+              </div>
+              <span class="item-price">$3.85</span>
+            </div>
+
+            <div class="item-row">
+              <div class="item-details">
+                <p class="item-name">1x Croissant</p>
+                <p class="item-options">Butter</p>
+              </div>
+              <span class="item-price">$2.45</span>
+            </div>
+          </div>
+        </div>
+
+        <form>
+          <div class="card">
+            <h2 class="card-title">NAME</h2>
+            <div class="input-group">
+              <label for="name" class="floating-lable">Name for order</label>
+              <input type="text" id="name" class="input-field" />
+            </div>
+          </div>
+
+          <div class="card">
+            <h2 class="card-title">PAYMENT</h2>
+            <div class="item-list-container">
+              <div class="input-group">
+                <label for="card-number" class="floating-lable"
+                  >Card number</label
+                >
+                <input type="text" id="card-number" class="input-field" />
+              </div>
+              <div class="input-group ccv-input">
+                <label for="ccv-number" class="floating-lable"
+                  >CCV Number</label
+                >
+                <input type="text" id="ccv-number" class="input-field" />
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <section class="summary-section">
+        <div class="summary-details">
+          <div class="summary-row">
+            <span class="summary-text">Subtotal:</span>
+            <span class="summary-price">$9.65</span>
+          </div>
+          <div class="summary-row">
+            <span class="summary-text">Tax:</span>
+            <span class="summary-price">$0.82</span>
+          </div>
+          <div class="summary-row total-row totalWord-and-price">
+            <span class="summary-text totalWord">Total:</span>
+            <span class="summary-price">$10.47</span>
+          </div>
+        </div>
+      </section>
+      <button>Place order</button>
+    </main>
+  </body>
+</html>
