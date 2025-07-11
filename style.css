@@ -246,14 +246,13 @@ button:hover {
 
 
     button {
-        width: 70%;
-        border-radius: 50px;
-        margin: auto;
+        width: 50%;
     }
 
 
     .summary-details {
-        width: 33.333%;
+        width: 50%;
     }
 
 }
+
